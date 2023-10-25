@@ -1,29 +1,56 @@
+* {
+  box-sizing: border-box;
+}
 body {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.3;
+  font-family: Arial;
+  background-color: lightgrey;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
+
   }
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  .main-header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: left;
+    flex-wrap: wrap;
     padding: 1%;
-    background-color: #65707a;
-    color: #fff;
+    background-color: #078cc9;
   }
   
-  h1 {
-    font-size: 200%;
+  header h1 {
+    font-size: 48px;
+    display: inline-block;
   }
 
-  nav ul {
+  header nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    min-width: 300px;
+    font-size: 20px;
+    padding: 14px 20px;
+    float: right;
   }
   
   nav a {
-    color: #b9C6ae;
+    color: white;
     font-weight: bold;
-    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
   }
+  .footer {
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    justify-content: space-between;
+    color: black;
+  }
+    .footer h2 {
+      float: left;
+      color: black;
+      font-size: 20px;
+    }
