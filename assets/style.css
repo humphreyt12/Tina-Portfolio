@@ -4,7 +4,7 @@
 body {
   font-family: Arial;
   background-color: lightgrey;
-  margin: 0;
+  margin: 20;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -42,15 +42,65 @@ body {
     flex-wrap: wrap;
     margin-left: 25px;
   }
+  main {
+    display: flex;
+  }
+  
+  aside h2 {
+    flex: 30%;
+    background-color: lightgrey;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-size: 50px;
+  }
+  section {
+    flex: 100%;
+    background-color: lightgrey;
+    padding: 20px;
+  }
+
+  /* Profile Image */
+.sections img {
+  background-color: #fff;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  border: 1px solid black;
+  float: top;
+  
+}
   .footer {
     padding: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     justify-content: space-between;
-    color: black;
+    color: white;
+    background:  #078cc9;
   }
     .footer h2 {
       float: left;
-      color: black;
+      color: white;
       font-size: 20px;
     }
+
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+  header {
+    background: #7ab190;
+  }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #7ab190;
+  }
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  .sample-img {
+    background-color: #8ac4ff;
+  }
+}
