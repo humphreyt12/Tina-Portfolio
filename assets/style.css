@@ -10,7 +10,7 @@ body {
   flex-wrap: wrap;
  }
 
- /* Styling to the Header */
+ /* Styling to the Header & Nav Bar*/
   .main-header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,15 +60,16 @@ nav a.active {
   
   }
   
- 
+ /* Styling to the Hero Image*/
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     padding: 1%;
+    border: 1px dashed white;
   }
-  
+  /* Styling to the About Me, Resume, and Work Content */
   .content {
     width: 80%;
     margin: 40px auto;
@@ -88,7 +89,7 @@ nav a.active {
     text-align: center;
   }
 
-
+ /* Styling to the About Me, Resume, and Work Content */
 
   .footer {
     padding: 30px;
