@@ -2,6 +2,7 @@
 
 ## Description 
 Created a portfolio that showcases my skills and talents for future employers 
+ <img src="./assets/images/TinaPortfolioScreenShot.png" alt = "A screen shot of Tina's Portfolio"/>
 
 ## Installation
 N/A
@@ -15,5 +16,7 @@ N/A
 ## Lincense
 Please refer to the lincese in the repo
 
+## Live Website
 
+https://humphreyt12.github.io/Tina-Portfolio/
 
